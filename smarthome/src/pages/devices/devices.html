@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Devices
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page2">
+  <button id="devices-button3" ion-button color="positive" block on-click="goToCloud()">
+    Connect to Cloud
+  </button>
+  <ion-card id="devices-card22">
+    <ion-list>
+      <div style="width:100%;height:220px;margin:0px 0px;line-height:250px;background-color:#e8ebef;text-align:center;">
+        <i class="icon ion-image" style="font-size:64px;color:#888;vertical-align:middle;"></i>
+      </div>
+    </ion-list>
+  </ion-card>
+  <form id="devices-form3">
+    <ion-item id="devices-select1" class="select">
+      <ion-label>
+        Select device
+      </ion-label>
+      <ion-select name="Choose">
+        <ion-option>
+          Play on iPhone
+        </ion-option>
+        <ion-option>
+          Play on iPad
+        </ion-option>
+        <ion-option>
+          Play on Mac
+        </ion-option>
+        <ion-option>
+          Play on Spotify API
+        </ion-option>
+        <ion-option></ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-searchbar placeholder="searching your device" name="" id="devices-search1" class="device"></ion-searchbar>
+  </form>
+</ion-content>
